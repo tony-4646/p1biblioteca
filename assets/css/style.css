@@ -1,0 +1,27 @@
+/*Empleado para crear la barra de opciones del menú principal*/
+
+@media (min-width: 768px) {
+    #sidebar {
+        position: fixed; 
+        top: 0;
+        bottom: 0;
+        left: 0;
+        height: 100vh; 
+        overflow-y: auto; 
+        z-index: 100; 
+    }
+
+    main {
+        margin-left: 30%;
+    }
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    padding: 10px 15px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff !important;
+}
